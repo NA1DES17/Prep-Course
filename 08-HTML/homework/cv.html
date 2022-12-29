@@ -4,120 +4,190 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Curriculum Nicolas</title>
-		<!-- 		<style>
+		<title>Curriculum Prom Nicolas</title>
+		<style>
 			* {
-				padding: 0;
+				list-style: circle;
 				margin: 0;
+				color: #141414;
 			}
-			#conteiner {
-				width: 50vw;
-				height: 100vh;
-				margin: 0 auto;
-				padding: 0 auto;
-				background-color: antiquewhite;
+			body {
+				background-color: #ebecf0;
 			}
-			section {
-				background-color: #efefef;
-				width: 40%;
-				height: 60%;
+			img {
+				width: 190px;
+				height: 190px;
+				border-radius: 50%;
+				margin-left: 50px;
+				box-shadow: 2px 2px lightseagreen;
+			}
+			h3 {
+				text-transform: uppercase;
+				text-decoration: underline;
+			}
+			h4 {
+				text-transform: uppercase;
+			}
+			#izq {
 				float: left;
+				width: 49%;
+				/* border: solid 0.5px red; */
+				height: fit-content;
+				background-color: #efefef;
+				box-shadow: gainsboro 2px 2px 12px 2px;
+			}
+			#der {
+				float: right;
+				width: 49%;
+				/* border: solid 0.5px red; */
+				height: fit-content;
+				background-color: #ebecf0;
+			}
+			#listaIzq {
+				width: 50%;
+				/* border: solid greenyellow; */
+				margin: 0 auto;
+				margin-top: 21px;
+			}
+			#listaDer {
+				width: 50%;
+				/* border: solid purple; */
+				margin: 0 auto;
+			}
+			h1 {
+				text-shadow: 1px 1px lightgreen;
+				font-size: 64px;
+			}
+			h4 {
+				font-size: 22px;
+			}
+			section h3 {
+				margin-bottom: 10px;
+			}
+			section p {
+				margin-bottom: 10px;
+				line-height: 22px;
+				padding: 1px 10px;
+			}
+			#span,
+			span h3 {
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+			#fotarda {
+				list-style: none;
 			}
 			h1,
 			h4 {
-				float: right;
-				text-transform: uppercase;
-				margin-right: 10%;
+				margin-left: 200px;
 			}
-		</style> -->
-		<style>
-			* {
-				list-style: none;
+			section ul li {
+				list-style: disc;
 			}
-			img {
-				width: 350px;
-				height: 350px;
-				border-radius: 50%;
+			#skills ul {
+				margin-bottom: 10px;
 			}
 		</style>
 	</head>
 	<body>
 		<div id="conteiner">
-			<h1>NICOLAS PROM</h1>
-			<ul>
-				<li>
-					<section id="aboutme" style="width: 30%">
-						<h3>ACERCA DE MI</h3>
-						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
-							incidunt iste dolorum soluta atque, delectus exercitationem sequi
-							reprehenderit cupiditate consequatur laudantium culpa maiores
-							neque ducimus quasi enim perspiciatis, rerum dignissimos!
-						</p>
-					</section>
-				</li>
-				<li>
-					<section id="educacion" style="width: 30%">
-						<h3>EDUCACION</h3>
-						<p>
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
-							quisquam, rerum ullam dolor necessitatibus soluta placeat veniam
-							quam facere recusandae quidem aliquam magnam nihil incidunt labore
-							totam fugiat itaque ipsam.
-						</p>
-					</section>
-				</li>
-				<li>
-					<section id="exp" style="width: 30%">
-						<h3>EXPERIENCIAS LABORALES</h3>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-							esse consequuntur possimus assumenda sunt quia corrupti temporibus
-							mollitia est, sapiente error voluptatem ex tenetur deserunt sequi
-							id quod veniam harum.
-						</p>
-					</section>
-				</li>
-				<li>
-					<section id="skills" style="width: 30%">
-						<h3>APTITUDES</h3>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-							esse consequuntur possimus assumenda sunt quia corrupti temporibus
-							mollitia est, sapiente error voluptatem ex tenetur deserunt sequi
-							id quod veniam harum.
-						</p>
-					</section>
-				</li>
-				<li>
-					<img
-						src="https://lh3.googleusercontent.com/8nVw8iqxK12efH1qOf-7yPCKAmp1CavBCzIt8StuMDttcOtRWx-WiD22UQlakJN5a_iy7XcNWQok9nNM6uuQcXYkSrxJ9NeRang74js_iuJODHeL5NlPGxMVyQJA2MvtZ_Iozl6hqcCbrdKLXSvEA0n31vv8G4B2F19yYJ4_hSc192rxxZosAX6lsvWc4VbUlgPm3Gj8drbuZdO5J3g7YAq5yiDEy3oOPGAjN0nApSsOIZHSc_VuAgJxZx2P7fMJIpDxdvIk6WjQM1AOreZk6vA6F1ZaLI-cgBGaC1vJLJBh13WCE9PoQlRjEMPt7C3S3LPJMFb6YisC9sIID_ICTcu6d4i0cQ9iYxjpjKhp-n2zRc3Q6Kebu9FYi584SG8IdSLbO13kANzsRXMtJIj7qwMD6rX7kdAHj6fT51eg_15pFkKi8jdZeyeKwSR87ecNjIRBJ3js8VZsm_xRy4MbgopKiiIuRDqkvVm3JEgndI2l4rOAace0p4eigU0N9fcy-uXrYXJ8FlcclUo7exYt2_kC1GGr9uBxL3yNCXFXYyDgkbqHzKs53e-C4eVfI2auyAe0dxnnbAxE7gAdeLq_gxqP34cdqVrAPHQpxi9reLvX578YYBGGQk16okpaQNXIXFb0MoMlBmi6L6mW1NATJ_j_DNdux-4F3HGFuTovFjQCYWimVWmEytpxYwIjbqdvBVJaIAC-xptOEm09oXV7DinnK9O8xl9wEYo2KrZ8tyKXiCZtteVb5rpuqA8i9dCyHPfUEqP86jGw3bucLACb6REttxclZnECB2bVFXuD4fumQBI4gGHQQld_tiMRLGG2t4fNh8dPhKD5dwPgJrgGA5ePAlVgmB2Nnri55hUhTHDh3Mp06VD9dtrDBq7-7FA69jKzG5IPA0Vvq5I82pYtQgFhjiIuGqT4AO6Da6OaUdk0WZB6dipwWhj2QIh8ogIVkVvO1CDGuON2vRbFo3C7kmC2dQLP6EA4xazT4HkEdL7qrwciwrOxLNd8Wv-PXmv0BatTG0zImvTVAKC2LjUxHpyUbCLF_MbHxDvUvEfGyzTO5pxt_vTezvhf6xJv=w524-h930-no?authuser=0"
-						alt=""
-						srcset=""
-					/>
-				</li>
-				<li>
-					<section id="hobbies" style="width: 30%">
-						<h3>HOBBIES</h3>
-						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-							Cupiditate omnis ullam vel illum distinctio eum praesentium magni,
-							vitae, cumque error harum dicta unde, nemo ipsa cum officiis
-							asperiores alias facilis?
-						</p>
-					</section>
-				</li>
-			</ul>
-			<span>
-				<h4>Conclusión</h4>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolorum ea
-				cum porro omnis numquam rerum doloribus. Aliquid ducimus est modi
-				distinctio aspernatur cum repudiandae maxime totam ratione recusandae!
-				Quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-				Eligendi asperiores nostrum vero dolorum iste adipisci iusto. Vero,
-				deleniti, libero voluptatum quod expedita accusamus ducimus adipisci
-				sapiente recusandae reiciendis illum rem?</span
-			>
+			<div id="izq">
+				<h1>NICOLAS PROM</h1>
+				<h4>Estudiante de Ing. Informatica</h4>
+				<ul id="listaIzq">
+					<li>
+						<section id="aboutme">
+							<h3>ACERCA DE MI</h3>
+							<p>
+								Soy una persona proactiva, muy disciplinada y responsable, tengo
+								buena predisposición para trabajar en equipo.
+							</p>
+							<p>
+								Estudio programación desde 2018 de manera autodidacta y en 2021
+								post-pandemia inicié la carrera de Ingeniero Informatico, sin
+								dejar de capacitarme de la manera que ya lo hacía.
+							</p>
+						</section>
+					</li>
+					<li>
+						<section id="educacion">
+							<h3>EDUCACION</h3>
+							<p>
+								Escuela de Enseñanza Técnica Número 5 de Quilmes -
+								<i>Reino de España</i>
+							</p>
+							<p>
+								<u>Titulo:</u>
+								<i> Tec. en Administración de las organizaciones</i>, 2019
+							</p>
+						</section>
+					</li>
+					<li>
+						<section id="skills">
+							<h3>APTITUDES</h3>
+							<p>Entre mis habilidades blandas destacaría:</p>
+							<ul>
+								<li class="skillsList">Creatividad</li>
+								<li>Iniciativa</li>
+								<li>Trabajo en equipo</li>
+								<li>Resolución de problemas complejos</li>
+								<li>Resiliencia</li>
+							</ul>
+						</section>
+					</li>
+				</ul>
+			</div>
+			<div id="der">
+				<ul id="listaDer">
+					<li id="fotarda">
+						<img
+							src="https://lh3.googleusercontent.com/8nVw8iqxK12efH1qOf-7yPCKAmp1CavBCzIt8StuMDttcOtRWx-WiD22UQlakJN5a_iy7XcNWQok9nNM6uuQcXYkSrxJ9NeRang74js_iuJODHeL5NlPGxMVyQJA2MvtZ_Iozl6hqcCbrdKLXSvEA0n31vv8G4B2F19yYJ4_hSc192rxxZosAX6lsvWc4VbUlgPm3Gj8drbuZdO5J3g7YAq5yiDEy3oOPGAjN0nApSsOIZHSc_VuAgJxZx2P7fMJIpDxdvIk6WjQM1AOreZk6vA6F1ZaLI-cgBGaC1vJLJBh13WCE9PoQlRjEMPt7C3S3LPJMFb6YisC9sIID_ICTcu6d4i0cQ9iYxjpjKhp-n2zRc3Q6Kebu9FYi584SG8IdSLbO13kANzsRXMtJIj7qwMD6rX7kdAHj6fT51eg_15pFkKi8jdZeyeKwSR87ecNjIRBJ3js8VZsm_xRy4MbgopKiiIuRDqkvVm3JEgndI2l4rOAace0p4eigU0N9fcy-uXrYXJ8FlcclUo7exYt2_kC1GGr9uBxL3yNCXFXYyDgkbqHzKs53e-C4eVfI2auyAe0dxnnbAxE7gAdeLq_gxqP34cdqVrAPHQpxi9reLvX578YYBGGQk16okpaQNXIXFb0MoMlBmi6L6mW1NATJ_j_DNdux-4F3HGFuTovFjQCYWimVWmEytpxYwIjbqdvBVJaIAC-xptOEm09oXV7DinnK9O8xl9wEYo2KrZ8tyKXiCZtteVb5rpuqA8i9dCyHPfUEqP86jGw3bucLACb6REttxclZnECB2bVFXuD4fumQBI4gGHQQld_tiMRLGG2t4fNh8dPhKD5dwPgJrgGA5ePAlVgmB2Nnri55hUhTHDh3Mp06VD9dtrDBq7-7FA69jKzG5IPA0Vvq5I82pYtQgFhjiIuGqT4AO6Da6OaUdk0WZB6dipwWhj2QIh8ogIVkVvO1CDGuON2vRbFo3C7kmC2dQLP6EA4xazT4HkEdL7qrwciwrOxLNd8Wv-PXmv0BatTG0zImvTVAKC2LjUxHpyUbCLF_MbHxDvUvEfGyzTO5pxt_vTezvhf6xJv=w524-h930-no?authuser=0"
+							alt=""
+							srcset=""
+						/>
+					</li>
+					<li>
+						<section id="exp">
+							<h3>EXPERIENCIAS LABORALES</h3>
+							<p>No cuento con experiencia laboral en el sector Informatico.</p>
+							<p>
+								He realizado prácticas profesionalizantes en el campo
+								administrativo dentro del Museo fotografico de Quilmes.
+							</p>
+							<p>
+								Soy profesor de Taekwondo en la sede social del Quilmes Atletico
+								Club
+							</p>
+						</section>
+					</li>
+					<li>
+						<section id="hobbies">
+							<h3>HOBBIES</h3>
+							<ul>
+								<li>Entrenar</li>
+								<li>Crear programas / páginas simples</li>
+								<li>Mirar series</li>
+								<li>Escuchar musica</li>
+								<li>Jugar videojuegos</li>
+							</ul>
+						</section>
+					</li>
+					<li>
+						<span>
+							<h3>Conclusión</h3>
+							<p id="span">
+								Siempre fui alguien a quien le gustó crear cosas, cuando era
+								chico dibujaba diseños de productos que creía inovadores. A
+								través de la programación siento que también puedo crear, quizás
+								de otra manera pero crear al fin, para así poder ayudar a
+								alguien. Me gustaría al final de esta carrera poder conseguir un
+								trabajo que me ponga a prueba mis conocimientos y en el que
+								pueda ser de ayuda.
+							</p>
+						</span>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</body>
 </html>
